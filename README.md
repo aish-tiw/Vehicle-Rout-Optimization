@@ -44,7 +44,16 @@ Given a network of sensor nodes with known (x, y) positions:
 
 ---
 
+### Project Poster
+
+![Optimization of Wireless Sensor Networks Routing](Poster.Final.png)
+
+---
+
 ### Tools
 - Google Colab
-- Datset (sub_data_file.csv) 
+- Datset (sub_data_file.csv)
+- Canva
+
+
 
