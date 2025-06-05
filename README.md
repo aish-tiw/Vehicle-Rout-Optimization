@@ -3,12 +3,16 @@
 
 This repository presents a project focused on optimising routing paths in Wireless Sensor Networks using both deterministic and evolutionary algorithms. The system is tested on simulated sensor placements in the New Forest designed to monitor environmental parameters and route data to base stations efficiently.
 
-## 📘 Project Overview
+--- 
+
+## Project Overview
 
 The objective is to find optimal routing paths that:
 - Minimise **end-to-end latency**
 - Maximise **end-to-end transmission rate**
 - Respect communication range constraints
+
+---
 
 ### Algorithms Compared:
 1. **Dijkstra’s Algorithm**  
@@ -19,12 +23,16 @@ The objective is to find optimal routing paths that:
 3. **Genetic Algorithm (Pareto)**  
    - Uses Pareto front sorting for multi-objective optimisation
 
+---
+
 ## Problem Statement
 
 Given a network of sensor nodes with known (x, y) positions:
 - Sensors transmit to one of two base stations (Beaulieu or Lyndhurst)
 - Many sensors require multi-hop routing
 - The optimisation aims to improve latency and throughput across the network
+
+---
 
 ## Key Features
 
@@ -33,8 +41,10 @@ Given a network of sensor nodes with known (x, y) positions:
 - Fitness and cost functions for rate and latency
 - Multi-run evaluations for robustness
 - Rich visualisations and convergence plots
-- Exportable JSON outputs for all routing paths
 
+---
 
-
+### Tools
+- Google Colab
+- Datset (sub_data_file.csv) 
 
